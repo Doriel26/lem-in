@@ -6,11 +6,7 @@
 /*   By: dchiche <dchiche@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/06 17:35:11 by dchiche           #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2018/05/08 18:21:26 by dchiche          ###   ########.fr       */
-=======
-/*   Updated: 2018/05/13 15:46:35 by dchiche          ###   ########.fr       */
->>>>>>> 365fd0c744d1717690f2f21e6b24868c11769b0d
+/*   Updated: 2018/05/14 16:36:28 by dchiche          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,5 +68,9 @@ void							print_elem(t_dlist *elem);
 */
 
 void							dijkstra(t_dlist *nodes, t_room *start);
+t_dlist							*solve(
+										t_dlist *lst,
+										t_room *start,
+										t_room *end);
 
 #endif

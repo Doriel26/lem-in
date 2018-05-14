@@ -3,14 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dchiche <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: dchiche <dchiche@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/05 18:19:45 by dchiche           #+#    #+#             */
-/*   Updated: 2018/05/09 18:36:24 by dchiche          ###   ########.fr       */
+/*   Updated: 2018/05/14 16:54:15 by dchiche          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include "get_next_line.h"
+#include <stdlib.h>
 
 static char		*copy(char *dest, char *str, int *offset)
 {

@@ -6,11 +6,7 @@
 #    By: dchiche <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/11/09 19:38:27 by dchiche           #+#    #+#              #
-<<<<<<< HEAD
-#    Updated: 2018/05/08 18:24:56 by dchiche          ###   ########.fr        #
-=======
-#    Updated: 2018/05/13 15:46:24 by dchiche          ###   ########.fr        #
->>>>>>> 365fd0c744d1717690f2f21e6b24868c11769b0d
+#    Updated: 2018/05/14 15:08:15 by dchiche          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,24 +21,15 @@ ft_strrchr.c ft_memdel.c ft_strnew.c ft_strdel.c ft_strclr.c ft_striter.c \
 ft_striteri.c ft_strmap.c ft_strmapi.c ft_strequ.c ft_strnequ.c ft_strsub.c \
 ft_strjoin.c ft_strtrim.c ft_putendl.c ft_putchar_fd.c ft_putstr_fd.c \
 ft_putendl_fd.c ft_putnbr_fd.c ft_strnstr.c ft_strsplit.c ft_strlcat.c \
-ft_swap.c ft_sort_int_table.c ft_strrev.c ft_strcapitalize.c \
-ft_str_is_printable.c ft_str_is_numeric.c ft_lstnew.c ft_lstdelone.c \
-ft_lstdel.c ft_lstadd.c ft_lstiter.c ft_lstmap.c ft_putnbr_base.c ft_nlen.c \
-ft_nlen_base.c ft_putnbr_max.c ft_itoa_u.c ft_putnbr_max_u.c get_next_line.c \
-<<<<<<< HEAD
-ft_printf.c ft_c.c ft_o.c ft_x.c ft_d_or_i.c ft_p.c ft_s.c ft_specifier.c \
-ft_type.c ft_u.c ft_x_maj.c parser.c ft_dlst_to_tab.c ft_dlstappend.c \
-=======
-ft_printf.c to_utf8.c ft_printbin_fd.c ft_printchar_fd.c ft_printhexa_fd.c \
-ft_printint_fd.c ft_printitoa.c ft_printn_fd.c ft_printoctal_fd.c \
-ft_printpercent_fd.c ft_printpointer_fd.c ft_printstr_fd.c ft_printuint_fd.c \
-ft_printunichar_fd.c ft_printunistr_fd.c ft_vfprintf.c ft_vprintf.c \
-parse_token.c print_token.c ft_dlst_to_tab.c ft_dlstappend.c \
->>>>>>> 365fd0c744d1717690f2f21e6b24868c11769b0d
+ft_swap.c ft_sort_int_table.c ft_strrev.c ft_strcapitalize.c ft_atou.c \
+ft_str_is_printable.c ft_lstnew.c ft_lstdelone.c ft_lstdel.c ft_lstadd.c \
+ft_lstiter.c ft_lstmap.c ft_putnbr_base.c ft_nlen.c ft_nlen_base.c \
+ft_putnbr_max.c ft_itoa_u.c ft_putnbr_max_u.c get_next_line.c ft_printf.c \
+ft_c.c ft_o.c ft_x.c ft_d_or_i.c ft_p.c ft_s.c ft_specifier.c ft_type.c ft_u.c \
+ft_x_maj.c parser.c ft_str_is_numeric.c ft_dlst_to_tab.c ft_dlstappend.c \
 ft_dlstat.c ft_dlstdel.c ft_dlstdelone.c ft_dlstfilter.c ft_dlstiter.c \
 ft_dlstlen.c ft_dlstlink.c ft_dlstnew.c ft_dlstpop.c ft_dlstprepend.c \
-ft_dlstremove.c ft_dlstreverse.c ft_dlstsort.c ft_atou.c ft_atoimax.c \
-ft_utoa.c ft_utoa_base.c
+ft_dlstremove.c ft_dlstreverse.c ft_dlstsort.c
 LIB = ./
 OBJ = $(SRCS:.c=.o)
 

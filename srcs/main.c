@@ -6,7 +6,7 @@
 /*   By: dchiche <dchiche@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/06 17:39:21 by dchiche           #+#    #+#             */
-/*   Updated: 2018/05/09 18:39:55 by dchiche          ###   ########.fr       */
+/*   Updated: 2018/05/14 17:07:57 by dchiche          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,9 +80,9 @@ int			main(void)
 		return (1);
 	}
 	logger(NULL, 1);
-	write(1, "OK\n", 3);
-	/*result = solve(list, start, end);
-	print_lem_in(result);*/
+	result = solve(list, start, end);
+	ft_dlstiter(result, print_elem);
+	print_lem_in(result);
 	ft_dlstdel(&result, free_room);
 	ft_dlstdel(&list, free_room);
 }

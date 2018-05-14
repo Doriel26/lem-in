@@ -6,11 +6,7 @@
 /*   By: dchiche <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/08 13:45:26 by dchiche           #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2018/05/08 18:22:42 by dchiche          ###   ########.fr       */
-=======
-/*   Updated: 2018/05/13 15:40:56 by dchiche          ###   ########.fr       */
->>>>>>> 365fd0c744d1717690f2f21e6b24868c11769b0d
+/*   Updated: 2018/05/14 15:09:57 by dchiche          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +23,6 @@
 # include <sys/types.h>
 # include <sys/uio.h>
 # include <fcntl.h>
-# include <stdint.h>
-<<<<<<< HEAD
-=======
-# include <stdarg.h>
-# include <wchar.h>
->>>>>>> 365fd0c744d1717690f2f21e6b24868c11769b0d
 
 typedef struct		s_list
 {
@@ -112,13 +102,14 @@ t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 void				ft_swap(int *a, int *b);
 void				ft_sort_int_table(int *tab, int size);
 char				*ft_strrev(char *str);
+int					ft_str_is_numeric(const char *str);
 char				*ft_strcapitalize(char *str);
 int					ft_str_is_printable(char *str);
-int					ft_str_is_numeric(const char *str);
 void				ft_putnbr_base(uintmax_t n, char *base);
 int					ft_nlen(intmax_t nbr);
 int					ft_nlen_base(uintmax_t nbr, uintmax_t base);
 char				*ft_itoa_u(uintmax_t n);
+unsigned int		ft_atou(const char *str);
 void				ft_putnbr_max(uintmax_t n);
 void				ft_putnbr_max_u(uintmax_t n);
 int					get_next_line(const int fd, char **line);
@@ -142,14 +133,6 @@ size_t				ft_dlstlen(t_dlist *list);
 void				**ft_dlst_to_tab(t_dlist *list);
 void				ft_dlstsort(t_dlist **head,
 								int (*cmp)(t_dlist *l1, t_dlist *l2));
-unsigned int		ft_atou(const char *str);
-intmax_t			ft_atoimax(const char *str);
-char				*ft_utoa(unsigned int n);
-char				*ft_utoa_base(uintmax_t n, const char *base);
 int					ft_printf(const char *format, ...);
-<<<<<<< HEAD
-=======
-int					to_utf8(unsigned int unicode, char *utf8);
->>>>>>> 365fd0c744d1717690f2f21e6b24868c11769b0d
 
 #endif

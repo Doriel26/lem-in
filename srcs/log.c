@@ -6,23 +6,15 @@
 /*   By: dchiche <dchiche@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/06 17:39:02 by dchiche           #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2018/05/11 14:21:26 by dchiche          ###   ########.fr       */
-=======
-/*   Updated: 2018/05/13 16:06:09 by dchiche          ###   ########.fr       */
->>>>>>> 365fd0c744d1717690f2f21e6b24868c11769b0d
+/*   Updated: 2018/05/14 16:26:10 by dchiche          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/lem_in.h"
-<<<<<<< HEAD
-=======
 #include "../libft/ft_printf.h"
->>>>>>> 365fd0c744d1717690f2f21e6b24868c11769b0d
 
 void	log_print(t_dlist *elem)
 {
-	write(1, "SUP\n", 4);
 	ft_printf("%s\n", (char *)elem->content);
 }
 
