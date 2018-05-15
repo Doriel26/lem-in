@@ -6,7 +6,7 @@
 /*   By: dchiche <dchiche@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/06 17:35:11 by dchiche           #+#    #+#             */
-/*   Updated: 2018/05/14 16:36:28 by dchiche          ###   ########.fr       */
+/*   Updated: 2018/05/15 21:37:17 by dchiche          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,5 +72,6 @@ t_dlist							*solve(
 										t_dlist *lst,
 										t_room *start,
 										t_room *end);
+void							print_lem_in(int nbant, t_dlist *result);
 
 #endif

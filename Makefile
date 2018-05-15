@@ -6,7 +6,7 @@
 #    By: dchiche <dchiche@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/05/14 15:11:01 by dchiche           #+#    #+#              #
-#    Updated: 2018/05/14 16:35:42 by dchiche          ###   ########.fr        #
+#    Updated: 2018/05/15 16:53:31 by dchiche          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,8 @@ SRCS =  main.c \
 		structure/is_connected.c \
 		structure/room_cmp.c \
 		algo/dijkstra.c \
-		algo/solve.c
+		algo/solve.c \
+		algo/print_lem_in.c
 
 SRCS := $(addprefix srcs/, $(SRCS))
 OBJ = $(SRCS:.c=.o)
